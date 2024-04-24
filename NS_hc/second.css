@@ -1,0 +1,42 @@
+p{
+    text-align: left;
+}
+H1{
+    text-align: center;
+    text-decoration:red dotted underline;
+}
+H2{
+    text-align: center;
+    text-decoration:yellow overline;
+}
+a{
+    background-color:black;
+    color:red
+}
+#h1{
+    font-weight: normal;
+}
+#h2{
+    font-weight: bold;
+}
+#h3{
+    font-weight: bolder;
+}
+#h4{
+    font-weight: 900;
+}
+#one{
+    font-family:arial;
+    text-transform: uppercase;
+}
+#two{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#ones{
+    font-size: 100px;
+    line-height: 20px;
+}
+#twos{
+    font-size: 100px;
+}
+

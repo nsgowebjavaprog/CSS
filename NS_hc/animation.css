@@ -1,0 +1,35 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 3px solid black;
+    /*transition-property:all ;
+    transition-duration: 2s;
+    transition-timing-function:steps(5) ;
+    transition-delay:1s ;/*wating 1s*/
+   transition: all 2s ease-in 1s; 
+
+}
+div:hover{
+    background-color: black;
+    color: red;
+    font-size: 20px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+   
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+}
+/*.loader{
+    width: 150px;
+    height: 150px;
+    border-left: 5px solid #38ff8e;
+    border-right: 5px solid red;
+    border-radius:50%;
+    animation: right5231 0.9s linear infinite;
+}

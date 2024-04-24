@@ -1,0 +1,9 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-image: url("bird_photo.jpg.jpg");
+    background-size: cover;
+    color:blue;
+    position: absolute;
+    right: 0px;
+}

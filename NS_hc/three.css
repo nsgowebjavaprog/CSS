@@ -1,0 +1,62 @@
+#div{
+    height: 100px;
+    background-color: red;
+    width: 100px;
+    border-width: 2px;
+    border-style:dotted;
+    border-color: black;
+    text-align: center;
+}
+button{
+    color: pink;
+    background-color: green;
+}
+p{
+    color:white;
+    background-color: indigo;
+    width: 100px;
+    border-width: 5px;
+    border-style:double;
+    border-color: yellow;
+}
+h4{
+    color: red;
+    height: 100px;
+    background-color: black;
+    width: 100px;
+    border-width: 5px;
+    border-style:solid;
+    border-color: red;
+    text-align: right;
+}
+H2{
+    color: red;
+    height: 100px;
+    background-color: black;
+    width: 100px;
+   
+    border: 5px solid yellow;
+   
+    text-align: center;
+
+}
+div{
+    height: 10px;
+    background-color: red;
+    width: 10px;
+    border: 3px solid green;
+    border-radius:20px ;
+    border-radius:25% ;
+    font-style:italic;
+    text-align: center;
+   /* padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    or use*/
+    padding: 4px 2px 3px 4px;
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-bottom: -5px;
+    display: inline;
+}

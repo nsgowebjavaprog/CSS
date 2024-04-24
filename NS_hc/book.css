@@ -1,0 +1,47 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.booking-container {
+	width: 300px;
+	margin: 0 auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.booking-container h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.booking-container label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.booking-container input[type="text"],
+.booking-container input[type="email"],
+.booking-container input[type="date"],
+.booking-container input[type="time"],
+.booking-container input[type="number"] {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+}
+
+.booking-container input[type="submit"] {
+	width: 100%;
+	padding: 5px;
+	background-color: #007BFF;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.booking-container input[type="submit"]:hover {
+	background-color: #0056b3;
+}

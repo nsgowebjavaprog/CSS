@@ -1,0 +1,40 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+body{
+    background-image: url("laura-college-K_Na5gCmh38-unsplash (2).jpg");
+    background-size: cover;
+}
+#box1{
+    position:static;
+    top:50px;
+    bottom: 50px;
+    background-image: url("laura-college-K_Na5gCmh38-unsplash (2).jpg");
+    background-size: contain;
+    
+}
+#box2{
+    position: relative;
+    top: 20px;
+    bottom: 30px;
+    right: 20px;
+    z-index: -3;
+
+}
+#box3{
+    position:absolute;
+    top: 20px;
+    bottom: 30px;
+    right: 20px;
+}
+#box4{
+    position:sticky;
+    top: 2px;
+    bottom: 3px;
+    right: 2px;
+}
