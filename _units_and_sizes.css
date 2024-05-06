@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    border: 2px solid red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.2em;
+}
+h2{
+    border: 5px dashed yellow;
+    width: 100%;
+}
+
+main{
+    width: 50vw;
+    background-color: greenyellow;
+    font-size: 1.6rem;
+}
+p{
+    font-size: 1rem;
+    width: 45ch;
+}
