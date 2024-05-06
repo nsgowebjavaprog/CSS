@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto',sans-serif;
+}
+
+ol{
+    list-style-type: upper-roman;
+}
+ul{
+    list-style-type: square;
+    list-style-type: lower-greek;
+    text-align: center;
+    list-style-position: inside;
+    /* list-style-image: url("box3_image.jpg"); */
+}
+
+li{
+    color: red;
+}
+ul li:nth-child(2){
+    color: rebeccapurple;
+}
+
+/* ::marker{
+    color: aqua;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Only $5 >>";
+} */
+
+
+ul ::marker{
+    color: red;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Only $5 >>";
+}
