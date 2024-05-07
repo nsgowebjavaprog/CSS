@@ -1,0 +1,60 @@
+/* @import url("https://fonts.gloogleapis.com/css2?family=Roboto&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Roboto,sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* for all box */
+.container{
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline:auto;
+    border: 1px solid #000;
+    display: flex;                /* // look like a coloumn */
+    /* justify-content: flex-end;  starting or ending */
+    gap: 1rem;
+    justify-content: space-evenly;
+    align-items: center;              /* HOROZONTAL */
+    /*flex-direction:row;
+    flex-wrap: wrap;*/   /* imp  */
+    flex-flow: row nowrap;      /* imp */
+
+    align-content: flex-start;
+    align-content: center;
+    align-content: space-between;
+    align-content: space-evenly;
+
+}
+
+/* ib box*/
+.box{
+    min-width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem;
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+          
+          flex-grow: 1;  /* mp*/
+          flex-basis: 250px;
+
+
+}
+
+.box:nth-child(2){    /* growth box=2 */
+    flex-grow: 2;
+
+}
