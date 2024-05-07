@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Numito&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font:1.5rem "Nunito",sans-serif;
+    min-height: 100vh;
+    background-color: #475569;
+    background-image: radial-gradient(whitesmoke,#475569);
+    display: flex;
+    flex-direction: column;
+
+}
+
+header, nav, main, footer{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+header, footer{
+    position: sticky;
+    background-color: #1E2938;
+    color: whitesmoke;
+}
+
+header{
+    top: 0;
+}
+
+nav{
+    background-color: #fff;
+    color: #333;
+    padding:0.5rem;
+    border-bottom: 2px solid#000;
+}
+main{
+    flex-grow: 1;
+}
+footer{
+    bottom: 0;
+}
+
+/* chage color when small and large eg: phone and laptops */
+/* SMALL */
+@media screen and (min-width:567px) {
+body{
+    background-color: green;
+    background-image: radial-gradient(whitesmoke, green);
+}   
+nav{
+    display: none;
+}
+}
+
+/* MEDIUM */
+
+@media screen and (min-width:789px) {
+    body{
+        background-color: gold;
+        background-image: radial-gradient(whitesmoke,gold);
+    }   
+}
+
+    /* LARGE */
+    @media screen and (min-width:898px) {
+        body{
+            background-color: red;
+            background-image: radial-gradient(whitesmoke,red);
+        }   
+     }
+
+/* XL */
+@media screen and (min-width:992px) {
+    body{
+        background-color:aqua;
+        background-image: radial-gradient(whitesmoke,aqua);
+    }   
+ }     
