@@ -1,0 +1,68 @@
+
+/* BoX module */
+
+/* 
+1.height
+2.width
+3.padding
+4.margin         b/w    two div
+5.border */
+
+div{
+    height: 100px;
+    background-color: yellow;
+    width: 100px;
+    /* border-width: 5px;
+    border-style:solid;
+    border-color: red; */
+    border: 3px solid red;
+    text-align: center;
+    border-radius: 20px;
+    
+/* PADDING ---clock-wise*/
+/* 1.padding-left
+2.padding-right
+3.padding-top
+4.padding-bottom */
+
+/* padding-right:25px ;
+padding-left: 40px; */
+
+/* margin */
+margin-top: 20px;
+margin-left: 50px;
+
+}
+h1{
+    width: 150px;
+    height: 50px;
+    background-color: brown;
+    border-color: black;
+    border-style: dashed;
+    border-width: 3px;
+    text-align: center;
+    border-radius: 50px;
+}
+/* navbar */
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#navbar {
+    height: 60px;
+    background-color: black;
+}
+button{
+    background-color: goldenrod;
+}
+#logo{
+    color: orange;
+    font-size:23px ;
+}
+
+a{
+    margin-right:200px;
+}
