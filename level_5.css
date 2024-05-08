@@ -1,0 +1,44 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 5px solid black;
+    /* transition-property:all;
+    transition-duration: 1s;
+    transition-timing-function: steps(3);
+    transition-delay: 1s; */
+    /* transition: property_name | duration | timing_function |delay */
+    /* transition: all 2s ease-in 1s; */
+    border-radius: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    animation-name: colorAnimate;
+    animation-duration: 25s;
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+    animation-duration: reverse;
+}
+
+/* div:hover{
+    background-color: rgb(57, 200, 65);
+    color: white;
+    border: 10px solid green;
+    font-size: 20px;
+}
+
+div:active{
+    background-color: aqua;
+} */
+
+/* ANIMATION */
+/* 
+@keyframes colorAnimate {
+    from {background-color: red;}
+    to {background-color: yellow;}
+} */
+
+@keyframes colorAnimate {
+    from{left: 0px;}
+    to{left: 200px;}
+}
