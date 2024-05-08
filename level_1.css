@@ -1,0 +1,117 @@
+/* External style--sheet */
+*{
+    color: rebeccapurple;
+}
+h1{
+    color: red;
+}
+
+p{
+    color: red;
+}
+button{
+    color: red;
+}
+button{
+    background-color: black;
+}
+
+
+body{
+    background-color: bisque;
+}
+
+/* RGB */
+
+/* 0---250 */
+/* body{
+    background-color: rgba(15, 249, 229, 0.623);
+} */
+/* Hex */
+
+/* color---> ff0000--->red;  [0----ff] */
+
+/* color---> 00ff00--->red;  [0----ff] */
+
+/* yellow-----> #ffff00; */
+
+/* selectors
+1.universal    * { all }
+2.element selector  h1{ }
+3.id selector   #myid { }
+4.class selector   .myclass{ } */
+
+#box{
+    background-color: blue;
+}
+
+.heading{
+    color: red;
+}
+
+button{
+    background-color: green;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    text-decoration: overline;
+    text-decoration: double;
+
+}
+p{
+    text-align: right;  /* start */
+    text-align: left;  /* end */
+    text-align: center;
+}
+
+a{
+    text-decoration:none ;
+}
+#h1{
+    font-size: 100;
+}
+#h2{
+    font-size: 900;
+}
+
+#h3{
+    font-weight: bold;
+}
+#h4{
+    font-weight: lighter;
+}
+
+#one{
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#two{
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* UNION IN------->CSSSSSSS  */
+
+/* 96PX---- 1INCH  */
+/* FONTSIZE--2PX  */
+
+#a{
+    font-size: 5px;
+}
+
+#b{
+    font-size: 50px;
+}
+#c{
+    font-size: 17px;
+}
+
+#one{
+    text-transform: uppercase;
+    text-transform: capitalize;
+}
+
+/* practice--2 */
+
